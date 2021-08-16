@@ -1,0 +1,83 @@
+/* Post */
+.post {
+  max-width: 600px;
+  margin: 50px auto;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.post__header h3 {
+  margin-left: 15px;
+}
+
+.post h4 {
+  padding: 20px;
+  background-color: white;
+}
+
+.post__image {
+  width: 100%;
+}
+
+.post__text {
+  font-weight: 400;
+}
+
+/* Post comment */
+.post__comment {
+  width: 100%;
+  display: flex;
+  border: none;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+}
+
+/* .post__comment > .post__input {
+  width: 80%;
+  padding-left: 10px;
+  border: none;
+  border-right: 1px solid lightgray;
+  outline: none;
+} */
+
+.comment {
+  display: flex;
+  padding: 0px 20px 20px 20px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.post__button {
+  width: 20%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post__button {
+  display: 0;
+  border: none;
+  color: #6082a3;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+}
